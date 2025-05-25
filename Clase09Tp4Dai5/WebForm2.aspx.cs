@@ -15,7 +15,7 @@ namespace Clase09Tp4Dai5
         {
             if (!IsPostBack)
             {
-
+                //obtención de datos y almacenamiento en variable
                 var adapter = new _ISSD_TP4_202501DataSetTableAdapters.PeliculasConDetallesTableAdapter();
                 var dt = adapter.GetData();
 
